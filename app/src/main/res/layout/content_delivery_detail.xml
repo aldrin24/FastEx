@@ -63,7 +63,7 @@
 
                     <TextView
                         android:id="@+id/lbl_desc"
-                        style="@style/TextAppearance.AppCompat.Large"
+                        style="@style/TextAppearance.AppCompat.Title"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/item_view_margin"
@@ -76,7 +76,7 @@
 
                     <TextView
                         android:id="@+id/lbl_location"
-                        style="@style/TextAppearance.AppCompat.Medium"
+                        style="@style/TextAppearance.AppCompat.Subhead"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_margin="@dimen/item_view_margin"
