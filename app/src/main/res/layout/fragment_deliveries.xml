@@ -24,7 +24,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:paddingTop="@dimen/item_padding_half"
-            android:paddingBottom="@dimen/item_padding_half"/>
+            android:paddingBottom="@dimen/item_padding_half"
+            android:clipToPadding="false"/>
 
     </android.support.constraint.ConstraintLayout>
 </layout>
