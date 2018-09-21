@@ -15,7 +15,7 @@ public class NetworkState {
 
     static {
         LOADED = new NetworkState(Status.SUCCESS, "Successfully Loaded");
-        LOADING = new NetworkState(Status.RUNNING, "Loading..");
+        LOADING = new NetworkState(Status.RUNNING, "Loading...");
     }
 
     public Status getStatus() {

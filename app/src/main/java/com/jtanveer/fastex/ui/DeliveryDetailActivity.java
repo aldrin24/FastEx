@@ -46,7 +46,6 @@ public class DeliveryDetailActivity extends AppCompatActivity implements OnMapRe
     private void updateUI(GoogleMap googleMap) {
         delivery = getIntent().getParcelableExtra(KEY_DELIVERY);
         if (delivery != null) {
-            binding.toolbar.setTitle(delivery.getLocation().getAddress());
             LatLng latLng = new LatLng(delivery.getLocation().getLat(), delivery.getLocation().getLng());
             MarkerOptions markerOptions = new MarkerOptions();
             markerOptions.position(latLng);
