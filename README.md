@@ -1,11 +1,11 @@
 # FastEx
 ### Delivery tracker
 
-This is simple application to track pending deliveries
+This is a simple application to track pending deliveries
 
 ### What's in the App
 
-This app consists of 3 screens. First screen is the splash screen which is displayed during the loading of components. After loading is complete user is taken to the second screen where the list of pending deliveries is displayd. User can tap on any item to check the details of the delivery on the third screen. Location is displayed on a map to get the visual idea of the delivery address.
+This app consists of 3 screens. First screen is the splash screen which is displayed during the loading of components. After loading is complete, user is taken to the second screen where the list of pending deliveries is displayd. User can tap on any item to check the details of the delivery on the third screen. Location is displayed on a map to get the visual idea of the delivery address.
 
 ### Generate Google Maps API Key
 
